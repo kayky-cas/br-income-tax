@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Imposto de Renda</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <form>
+      <input id="nome" type="text" name="Nome" placeholder="Nome">
+      <input id="salario" type="number" placeholder="R$">
+    </form>
+    <button type="button" id="calcular" onclick="tabelaIR()">Calcular</button>
+    <table>
+      <tbody id="tabela">
+        <tr>
+          <th>NOME</th>
+          <th>SALÁRIO BRUTO</th>
+          <th>DESCONTO INSS(%)</th>
+          <th>DESCONTO INSS(R$)</th>
+          <th>DESCONTO IRPF(%)</th>
+          <th>DESCONTO IRPF(R$)</th>
+          <th>SALÁRIO LIQUIDO</th>
+        </tr>
+      </tbody>
+    </table>
+    <script src="./javascript/calculo.js" charset="utf-8"></script>
+  </body>
+</html>

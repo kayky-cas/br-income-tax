@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+body{
+  border: 5px solid #198A8C;
+  height: 100%;
+  align-content: center;
+}
+header{
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 150px;
+}
+form{
+  margin-top: 30px;
+  width: 100%;
+  align-content: center;
+}
+input{
+  width: 49%;
+  height: 50px;
+}
+button {
+  margin-left: 35%;
+  margin-top: 8px;
+  width: 30%;
+  background-color: #198A8C;
+  border: none;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 1
+}
+
+table{
+  margin-top: 30px;
+  border: 1px solid #000;
+}
+td{
+  width: 90px;
+  border: 0.5px solid #000;
+  font-size: 7px;
+}
+th{
+  padding: 2px;
+  border: 1px solid #000;
+  font-size: 7px;
+}
+@media only screen and (min-width:520px){
+  th{
+    font-size: 10px;
+  }
+  td{
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width:665px){
+  button{
+    font-size: 25px;
+
+  }
+  th{
+    font-size: 15px;
+  }
+  td{
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width:970px){
+  table{
+    width: 80%;
+    margin-left: 10%;
+  }
+}
